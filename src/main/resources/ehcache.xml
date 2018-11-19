@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+    <cache name="json"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="10">
+    </cache>
+    <cache name="jsonData"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="10">
+    </cache>
+    <cache name="latest"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="43200">
+    </cache>
+    <cache name="rate"
+        maxEntriesLocalHeap="200"
+        timeToLiveSeconds="43200"/>
+    <cache name="get_rate"
+           maxEntriesLocalHeap="200"
+           timeToLiveSeconds="43200"/>
+</ehcache>
+
